@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Precession of the perihelion of Mercury</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Science Hut</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="#" target= "_blank">
+											<h3>Recent Posts</h3>
+											<p>Check out our latests posts</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" target= "_blank">
+											<h3>Popular Posts</h3>
+											<p>Check out our most viewed posts</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" target= "_blank">
+											<h3>Gallery</h3>
+											<p>Check out our window to the universe</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Precession of the perihelion of Mercury</a></h2>
+										<p>Find out one of the most famous predictions of General Relativity</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2023-06-10">June 10, 2023</time>
+										<a href="#" class="author"><span class="name">Ronaldo Camacho</span><img src="images/author_ronaldo.jpg" alt="" /></a>
+									</div>
+								</header>
+
+								<span class="image featured"><img src="images/mercury-perihelion.png" alt="" /></span>
+					
+								<h3>Brief Overview</h3>
+
+								<p>The problem of Mercury perihelion was well known in Einstein's time. The issue was observed in the works of french astronomer Urbain Le Verrier (1859) when he calculated a perturbation effect caused by interaction of Mercury with other planets, finding an anomally: the perihelion advance. This problem could not be explained by Newton's theory and remaind that way until the arrival of General Relativity, becoming one of its most famous predictions.</p>
+								<p>In order to understand this problem and its eventual solution, let us start from the basics. It is well known that all planets orbit the Sun in ellipses, as described by Kepler's Laws, so it is only natural that one point in their orbit will be closest to the Sun and another point farthest from it. The farthest point is known as aphelion, while the closest one is the perihelion. As observed by Le Verrier, the perihelion advances by a small amount at each orbit of Mercury. Using Newton's theory scientists at the time were able to calculate this advance, but there was still an approximate 43 arc-second per century discrepancy between the Newtonian prediction and the observed precession.</p>
+								<p>It was only on November 18th of 1915 that Mercury's perihelion would be conquered. Shortly before arriving at the final field equations of General Relativity, Einstein published a derivation of Mercury's orbital precession based on the vacuum field equations, which would be unchanged in the final theory. It was an immense success not only for Physics but for Eintein himself. Since the publication of his Special Relativity in 1905, he had been working on a grander theory of gravitation. In fact, in 1907 he had written to Conrad Habicht telling about his work on a theory that he hoped would account for the anomalous precession of Mercury.</p>
+																
+								<h3>Orbit of a massive particle</h3>
+
+								<p>
+									Let's start by deriving the equation which control the orbit of a massive particle in the Schwarzschild geometry. In order to do that we will use the
+									Killing vector associated with the time independence of the Schwarzschild metric, \(\xi^\alpha = (1,0,0,0)\), and the Killing vector associated with its angular
+									independence, \(\eta^\alpha = (0,0,0,1)\). The reasoning behind this is the fact that, since the metric is independent of \(\,t\,\) and \(\varphi\), the quantities
+									\(\xi \cdot u\) and \(\eta \cdot u\) are conserved, i.e.
+								</p>
+								<p>
+									\begin{equation}
+									e = -\xi \cdot u = \left( 1-\frac{2GM}{r} \right)\,\frac{dt}{d\tau} = \hbox{constant},
+									\end{equation}
+								</p>
+								<p>
+									\begin{equation}
+									l = -\eta \cdot u = r^2\sin^2\theta \frac{d\varphi}{d\tau} = r^2\frac{d\varphi}{d\tau} = \hbox{constant}.
+									\end{equation}
+								</p>
+								<p>
+									From the condition \(u \cdot u = u^\alpha \, g_{\alpha \beta} \, u^\beta = -1\) we get
+								</p>
+								<p>
+									\begin{equation}
+									-\left( \frac{e}{1-\frac{2GM}{r}} \right)^2 \left(1-\frac{2GM}{r}\right) + \left(\frac{dr}{d\tau}\right)^2\left(1-\frac{2GM}{r}\right)^{-1} + \frac{l^2}{r^4}r^2 = -1,
+									\end{equation}
+									where we used 
+									\begin{equation}
+									u^0 = \frac{e}{1-2GMr^{-1}}, \quad u^1 = \frac{dr}{d\tau}, \quad u^2 = 0, \quad u^3 = \frac{l}{r^2}.
+									\end{equation}
+								</p>
+								<p>
+									Working out the math we get
+									\begin{equation}
+									\frac{1}{2}\left(\frac{dr}{d\tau}\right)^2 + \frac{1}{2}\left[\left(1+\frac{l^2}{r^2}\right)\left(1-\frac{2GM}{r}\right)-1\right] = \frac{e^2-1}{2}
+									\end{equation}
+									which can be simplyfied to 
+									\begin{equation}
+									\frac{1}{2}\left(\frac{dr}{d\tau}\right)^2 + V_{eff}(r) = E,
+									\end{equation}
+									where 
+									\begin{equation}
+									V_{eff}(r) = \frac{1}{2}\left[\left(1+\frac{l^2}{r^2}\right)\left(1-\frac{2GM}{r}\right)-1\right] = -\frac{GM}{r}+\frac{l^2}{2r^2}-\frac{GMl^2}{r^3}
+									\end{equation}
+									is the effective potential energy and
+									\begin{equation}
+									E = \frac{e^2-1}{2}
+									\end{equation}
+									is the total energy. We can already see why this theory succeed where Newton's failed, i.e. comparing the equation we derived above to the orbit
+									of a planet of mass \(m=1\) in newtonian gravity we will see that the mechanical energy is 
+									\begin{equation}
+									E = \frac{1}{2}\left(\frac{dr}{dt}\right)^2 + \frac{l^2}{2r^2} - \frac{GM}{r}.
+									\end{equation}
+								</p>
+								<p>
+									Therefore, we see that the relativistic approach has an additional \(-\frac{GMl^2}{r^3}\) term. For large values of \(r\) the potential is close to
+									the Newtonian effective potential for motion in a \(1/r\) potential, due to the fact that both theories share the first two terms. However, as \(r\)
+									decreases, the attractive \(1/r^3\) correction from General Relativity becomes increasingly important. This result is shown in Figure 1 bellow.
+								</p>
+								<figure>
+									<img src="images/new-gr.png" alt="" style="width:100%">
+									<figcaption>Figure 1: Comparison of Relativistic and Newtonian effective potentials for radial motion.</figcaption>
+								</figure>
+								<p>
+									Finally, relating \(r\) with \(\varphi\) we can study the orbit, i.e.
+									\begin{equation}
+									\frac{1}{2}\left(\frac{l}{r^2}\frac{dr}{d\varphi}\right)^2 + -\frac{GM}{r}+\frac{l^2}{2r^2}-\frac{GMl^2}{r^3} = E,
+									\end{equation}
+									which we can then parametrize with \(u \equiv r^{-1}\) in order to get
+									\begin{equation}
+									\frac{d^2u}{d\varphi^2} + u = \frac{GM}{l^2} + 3GMu^2.
+									\end{equation}
+									This is the equation we were looking for.
+								</p>
+							
+								<h3>Nearly circular orbit</h3>
+
+								<p>
+									We could, in principle, solve this equation exactly. However, the algebra becomes rather complicated and it is beyond
+									our intentions in this article. As an alternative we will solve it for a nearly circular orbit. In order to do that,
+									consider first a circular orbit with radius \(r_c\) so that \(u = u_c = r_c^{-1}\). The quantity \(u_c\) satisfies our
+									previous equation with a constant value
+									\begin{equation}
+									u_c = \frac{GM}{l^2} + 3GMu_c^2.
+									\end{equation}
+								</p>
+								<p>
+									Now, let us consider the nearly circular orbit \(u(\varphi) = u_c[1+\omega(\varphi)]\), with \(\omega << 1\). Inserting
+									this in our equation we get
+									\begin{equation}
+									u_c \frac{d^2\omega}{d\varphi^2} + u_c\omega + u_c = \frac{GM}{l^2} + 3GM\{u_c[1+\omega]\}^2,
+									\end{equation}
+									which can be simplyfied in order to obtain an equation for \(\omega\), i.e.
+									\begin{equation}
+									\frac{d^2\omega}{d\varphi^2} + \omega(1-6GMu_c) = 0.
+									\end{equation}
+								</p>
+								<p>
+									In practice, what we did here was simply contruct a linear equation for the "perturbation \(\omega\)" which is a standard
+									method for dealing with inconvenient differential equations. Now what we have is the equation for the simple harmonic oscilator
+									which can be solved by
+									\begin{equation}
+									\omega = A\cos(\sqrt{1-6GMu_c}\varphi).
+									\end{equation}
+								</p>
+								<p>
+									Going back to our nearly circular orbit we can see that \(u(\varphi) = u_c[1+A\cos(\sqrt{1-6GMu_c}\varphi)]\)
+									or, in terms of \(r = u^{-1}\),
+									\begin{equation}
+									r(\varphi) = \frac{r_c}{1+A\cos\left(\sqrt{1-\frac{6GM}{r_c}}\varphi\right)}.
+									\end{equation}
+								</p>
+								<p>
+									At this point we can take a moment to understand this result. It is possible to think about three scenarios:
+									<ul>
+										<li>Perihelion when the argument of cosine is 0 \(\Rightarrow r = \frac{r_c}{1+A}\)</li>
+										<li>Aphelion when the argument of cosine is \(\pi\) \(\Rightarrow r = \frac{r_c}{1-A}\)</li>
+										<li>New perihelion when the argument is \(2\pi\) \(\Rightarrow r = \frac{r_c}{1+A}\)</li>
+									</ul>
+									Thus, at each orbit the argument of the cosine changes by \(2\pi\), which translates to
+									\begin{equation}
+									1 \; \hbox{orbit} \Leftrightarrow \sqrt{1-\frac{6GM}{r_c}}\Delta \varphi = 2\pi.
+									\end{equation}
+									In the weak field approximation \(GM << r\), therefore
+									\begin{equation}
+									\Delta \varphi = \frac{2\pi}{\sqrt{1-\frac{6GM}{r_c}}} \approx 2\pi + \frac{6\pi GM}{r_c}.
+									\end{equation}
+								</p>
+								<p>
+									A simple way to interpret this result is using the concept of closed orbit. Starting from the perihelion, 
+									\(r(\tau)\) will grow until we get to aphelion and then decreases back to the perihelion. In the meantime,
+									if \(\varphi\) has changed by \(2\pi\) we say that the orbit is closed, otherwise we define the amount of
+									precession per orbit by
+									\begin{equation}
+									\delta \varphi_{prec} \equiv \Delta \varphi_{orbit} - 2\pi.
+									\end{equation}
+								</p>
+								<p>
+									In our case,
+									\begin{equation}
+									\delta \varphi_{prec} = \Delta \varphi_{orbit} - 2\pi = \frac{6\pi GM}{r_c}.
+									\end{equation}
+									In the weak field regime, \(r_c = \frac{l^2}{GM}\), so we finally get the amount of precession predicted by General Relativity:
+									\begin{equation}
+									\delta \varphi_{prec} = 6\pi \left(\frac{GM}{l^2}\right).
+									\end{equation}
+								</p>
+
+								<h3>Mercury's precession</h3>
+
+								<p>
+									We now have all the tools we need to evaluate the precession of Mercury. To do that we use our last equation and remember that
+									the angular momentum for Mercury is
+									\begin{equation}
+									l = rv \approx 4.60 \cdot 10^7 \, km \cdot 59.0 \, km/s \approx 2.71 \cdot 10^5\, m^2/s.
+									\end{equation}
+								</p>
+								<p>
+									Taking the mass of the Sun as \(M_\odot \approx 1.99 \cdot 10^{30}\) kg, we can then calculate the variation of the precession:
+									\begin{equation}
+									\delta \varphi_{prec} \approx 6\pi \left( \frac{6.67 \cdot 10^{-11} \frac{m^3}{kg\,s^2} 1.99 \cdot 10^{30}\,kg}{2.71 \cdot 10^{15} \frac{m^2}{s} 3 \cdot 10^8 \frac{m}{s}} \right)^2 \approx 5.02 \cdot 10^{-7}\,rad,
+									\end{equation}
+									a value that is accumulated for each orbit. Since Mercury has an orbital period around 88 days we can then calculate how much its orbit is affected in a century, i.e.
+									\begin{eqnarray}
+									\frac{\delta \varphi}{T} &\approx& \frac{5.02 \cdot 10^{-7}\,\hbox{rad}}{2.41 \cdot 10^{-3} \cdot 100 \,\hbox{yrs}} \approx 2.08 \cdot 10^{-4}\,\hbox{rad/100yrs}\\
+									\\
+									&=& \frac{2.08 \cdot 10^{-4} \, \frac{180}{\pi}\,\hbox{degrees}}{100\,\hbox{yrs}} = \frac{2.08 \cdot 10^{-4} \, \frac{180}{\pi}\,3600\,\hbox{seconds}}{100\,\hbox{yrs}}\\
+									\\
+									&\approx& 43"/100yrs
+									\end{eqnarray}
+								</p>
+
+								
+								<footer>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										<li><a href="#" class="icon solid fa-comment">128</a></li>
+									</ul>
+								</footer>
+							
+							<!-- Comments -->
+						<!--section id="comments" class="body">
+								<header>
+									<h2>Comments</h2>
+								</header>
+	
+								<ol id="posts-list" class="hfeed">
+									<li><article id="comment_1" class="hentry">	
+										<footer class="post-info">
+											<abbr class="published" title="Thu, 23 Feb 2012 23:54:46 +0000">
+												23 February 2012
+											</abbr>
+								  
+											<address class="vcard author">
+												By <a class="url fn" href="#">Phil Leggetter</a>
+											</address>
+										</footer>
+								  
+										<div class="entry-content">
+											<p>The Realtime Web Rocks!</p>
+										</div>
+										</article></li>
+								</ol>
+	
+								<div id="respond">
+									<h3>Leave a Comment</h3>							  
+										<form action="post_comment.php" method="post" id="commentform">			  
+										  <label for="comment_author" class="required">Your name</label>
+										  <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+									  
+										  <label for="email" class="required">Your email</label>
+										  <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+									  
+										  <label for="comment" class="required">Your message</label>
+										  <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+									  
+										  < comment_post_ID value hard-coded as 1 >
+										  <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+										  <input name="submit" type="submit" value="Submit comment" />
+									  
+										</form>								  
+								</div>
+							</section-->		
+
+							</article>
+
+					</div>
+				
+					
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/ronaldo.o.camacho" target= "_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/ronaldo.camacho.dx/" target= "_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<!--p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p-->
+						<p class="copyright">Science Hut</p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
