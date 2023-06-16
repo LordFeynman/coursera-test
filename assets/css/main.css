@@ -3179,6 +3179,19 @@ button_learn,
 
 		}
 
+		div.problem {
+			background-color: yellow;
+			padding: 20px;
+		  }
+
+		@media screen and (min-width: 480px) {
+
+			div.problem{
+				display: none
+			}
+
+		}
+
 /* Section/Article */
 
 	section.special, article.special {
